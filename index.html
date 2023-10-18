@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d3a88850c4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="container-navbar">
+            <ul class="ul-navbar">
+                <li class="li-navbar"><img src="apple.png" style="height: 17px; width: 15px;"></li>
+                <li class="li-navbar"><a href="#" class="nav-bar">Store</a></li>
+                <li class="li-navbar"><a href="" class="nav-bar">Mac</a></li>
+                <li class="li-navbar"><a href="" class="nav-bar">Ipad</a></li>
+                <li class="li-navbar"><a href="" class="nav-bar">iphone</a></li>
+                <li class="li-navbar"><a href="" class="nav-bar">Watch</a></li>
+                <li class="li-navbar"><a href="" class="nav-bar">Vision</a></li>
+                <li class="li-navbar"><a href="" class="nav-bar">AirPods</a></li>
+                <li class="li-navbar"><a href="" class="nav-bar">TV & Home</a></li>
+                <li class="li-navbar"><a href="" class="nav-bar">Entertaiment</a></li>
+                <li class="li-navbar"><a href="" class="nav-bar">Accessories</a></li>
+                <li class="li-navbar"><a href="" class="nav-bar">Support</a></li>
+                <li class="li-navbar"><a href="" class="nav-bar"><img src="bag.png" style="height: 15px; width: 15px;"></a></li>
+                <li class="li-navbar"><a href="" class="nav-bar"><img src="search.png" style="height: 15px; width: 15px;"></a></li>
+            </ul>
+        </div> 
+
+<!-- navbar end -->
+
+<div class="content">
+    <div class="tittle">
+        <h1>New Products</h1>
+        <h3>Smarter. Brighter. Classy</h3>
+    </div>
+</div>
+
+<div class="content1-container">
+    <a href="" class="img.content"><img src="hai.png" height="100%" width="100%"></a>
+</div>
+
+    <div class="text-content1">
+        <a href="" class="iphone"><h1>iphone 15 Pro</h1><p>Titanium. So strong. So light. So pro.</p><br> <p class="hai">Learn more  >   Buy    ></p></a>
+    </div>
+
+<div class="content2-container">
+    <a href="" class="iphone2"><img src="content2.png" style="height:50% ; width:100% ;"></a>
+</div>
+            <!-- content end -->
+<div class="footer-container">
+    
+    <ul>
+        <li> <span>1. Trade-in values will vary based on the condition, year, and configuration of your eligible trade-in device. Not all devices are eligible for credit. You must be at least 18 years old to be eligible to trade in for credit or for an Apple Gift Card. Trade-in value may be applied toward qualifying new device purchase, or added to an Apple Gift Card. Actual value awarded is based on receipt of a qualifying device matching the description provided when estimate was made. Sales tax may be assessed on full value of a new device purchase. In-store trade-in requires presentation of a valid photo ID (local law may require saving this information). Offer may not be available in all stores, and may vary between in-store and online trade-in. Some stores may have additional requirements. Apple or its trade-in partners reserve the right to refuse or limit quantity of any trade-in transaction for any reason. More details are available from Apple’s trade-in partner for trade-in and recycling of eligible devices. Restrictions and limitations may apply.</span></li>
+        <li><span>Apple Vision Pro has not been authorized as required by the rules of the Federal Communications Commission. This device is not, and may not be, offered for sale or lease, or sold or leased, until authorization is obtained.</span></li>
+        <li><span>Apple Vision Pro will be available early next year on apple.com and at Apple retail stores in the U.S.</span></li>
+        <li><span>To access and use all Apple Card features and products available only to Apple Card users, you must add Apple Card to Wallet on an iPhone or iPad that supports and has the latest version of iOS or iPadOS. Apple Card is subject to credit approval, available only for qualifying applicants in the United States, and issued by Goldman Sachs Bank USA, Salt Lake City Branch.</span></li>
+        <li><span>If you reside in the U.S. territories, please call Goldman Sachs at 877-255-5923 with questions about Apple Card.</span></li>
+        <li><span>Learn more about how Apple Card applications are evaluated at support.apple.com/kb/HT209218</span></li>
+        <li><span>A subscription is required for Apple TV+.</span></li>
+    </ul>
+</div>
+<hr>
+<div class="footer">
+    <div class="col-1">
+        <h3>Need Something?</h3>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <a href="#">Shop</a>
+        <a href="#">Blog</a>
+    </div>
+    <div class="col-2">
+        <h3>NEWSLETTER</h3>
+        <form>
+            <input type="email" placeholder="Your Email Address" required><br>
+            <button type="submit">SUBMIT</button>
+
+        </form>
+    </div>
+    <div class="col-3">
+        <h3>CONTACT ME</h3>
+        <p>PT. Apple Indonesia PO Box 2804 JKSCA 12930 <br> Jakarta, Indonesia</p>
+        <div class="social-icon">
+            <a href="" style="text-decoration: none;">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-behance"></i> </a>
+        </div>
+    </div>
+</div>
+<hr>
+    <div class="copyRight">
+     Copyright © 2023 Apple Inc. All rights reserved.
+
+    </div>
+
+
+
+
+
+
+
+<!-- footer end -->
+    <script>
+        var container_navbar = document.getElementById("container-navbaar")
+        var ul_navbar = document. getElementById("ul-navbar")
+
+        window.onscroll=function(){
+            if(window.pageYOffset >= ul_navbar.offsetTop){ 
+                container_navbar.classList.add ("sticky")
+            }
+            else{
+                container_navbar.classList.remove ("sticky")
+            }
+        }
+    </script>
+</body>
+</html>
